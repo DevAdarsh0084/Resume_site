@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+    <style>
+        .box{
+            background-color: chartreuse;
+            border: 2px solid red;
+            height: 200px;
+            width: 200px; 
+            animation-name: adarsh;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 3;
+            
+            
+        }
+        .conatiner{
+
+            background-color: black;
+            height: 250px;
+                       
+        }
+        @keyframes adarsh{
+            form{
+                width: 200px;
+            }
+            to{
+                width: 400px;
+            }
+        }
+        /* @keyframes adarsh{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            75%{
+                top: 250px ;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

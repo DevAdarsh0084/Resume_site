@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: red;
+    background-size: 100px 100px;
+}
+
+nav{
+    display: flex;
+
+}
+#logo-2 img{
+    height: 400px;
+    width: 400px;
+    margin: 0px 0px;
+    
+}
+
+.eksaath{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eksaath::before{
+    background: url('https://static.startuptalky.com/2021/07/Dream11-Success-story-StartupTalky.jpg');
+}
+
+.text{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.input{
+    margin: 20px 10px;
+}
+
+.btn{
+    
+    margin: 20px 15px;
+    
+    border-radius: 28px;
+    background-color: chartreuse;
+    
+    width: 100%;
+
+    
+}
+
+.middlesection{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.patta{
+    display: flex;
+    border: 2px solid green;
+    text-align: center;
+    height: 50px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.733);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secondpatta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    text-align: center;
+    height: 50px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.733);
+}

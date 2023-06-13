@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transitions</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;;
+            color: white;
+            flex-direction: column;
+            
+
+        }
+
+
+       
+
+
+        #box{
+            display: flex;
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+            transition: all 1s ease-in-out  ;
+
+        }
+        #box:hover{
+            background-color: green;
+            height: 400px;
+            width: 400px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+  <h1>WELCOME TO ANIMATIONS</h1>
+    <div class="container">
+        <div id="box">
+            THIS IS MY BOX
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    min-height: 100vh;
+
+    
+    
+}
+
+section.loader{
+    position: relative;
+    height: 120px;
+    width: 120px;
+}
+
+section .loader span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+section .loader span::before{
+    
+}
