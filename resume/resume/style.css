@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    /* display: none; */
+    margin-right: 100px;
+}
+
+.header{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#heading{
+    margin-top: 10px;
+}
+
+
+.logos{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+
+.left{
+    margin-left: 30px;
+}
+
+.resume{
+    width: 1200px;
+    display: flex;
+}
+
+.row-1{
+    width: 100%;
+}
+
+.row-2{
+    width: 100%;
+}
+
+.line{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.education-content{
+    margin-left: 30px;
+}
+
+.education-logos{
+    display: flex;
+    gap: 30px;
+}
+
+.cgpa{
+    margin-top: -20px;
+}
+
+.school-logos{
+    display: flex;
+    gap: 30px;
+}
+
+.box-2{
+    margin-top: 20px;
+}
+
+.box-3{
+    margin-top: 20px;
+}
+
+.second{
+    margin-top: 10px;
+}
+
+.experience-content{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.achievemnet-content{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.hobbies-content{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.projects{
+    margin-top: 20px;
+}
+.projects-content{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.activities{
+    margin-top: 20px;
+}
+.activities-content{
+    margin-top: 10px;
+   
+}
+
+
+/* form css */
+
+.form-container{
+    width: 500px;
+   margin: auto;
+    
+}
+
+.row{
+    display: flex;
+}
+
+
+
+.newform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.new1form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
